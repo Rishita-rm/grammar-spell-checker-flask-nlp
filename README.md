@@ -1,3 +1,5 @@
+> Tags: Python, Flask, NLP, TextBlob, GingerIt, Web App, Grammar Correction, AI, Portfolio Project
+
 # 📝 Grammar & Spell Checker (Flask + NLP)
 
 A smart, web-based grammar and spelling correction tool built with **Python**, **Flask**, and NLP libraries like **TextBlob** and **GingerIt**. Designed to clean up user-entered or uploaded text with accurate grammar fixes and spelling suggestions.
