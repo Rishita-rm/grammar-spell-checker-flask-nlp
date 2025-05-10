@@ -6,12 +6,6 @@ A smart, web-based grammar and spelling correction tool built with **Python**, *
 
 ---
 
-## 🚀 Live Demo
-
-🔗 [Try it now on Replit](https://replit.com/@yourusername/spell-checker-app)
-
----
-
 ## ✨ Features
 
 - ✅ Context-aware **spelling correction** using TextBlob
