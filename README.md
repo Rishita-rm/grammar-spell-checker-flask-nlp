@@ -2,7 +2,7 @@
 
 # 📝 Grammar & Spell Checker (Flask + NLP)
 
-A smart, web-based grammar and spelling correction tool built with **Python**, **Flask**, and NLP libraries like **TextBlob** and **Language-tool-python**. Designed to clean up user-entered or uploaded text with accurate grammar fixes and spelling suggestions.
+A smart, web-based grammar and spelling correction tool built with **Python**, **Flask**, and NLP libraries like **TextBlob** and **Requests**. Designed to clean up user-entered or uploaded text with accurate grammar fixes and spelling suggestions.
 
 ---
 
@@ -27,7 +27,7 @@ A smart, web-based grammar and spelling correction tool built with **Python**, *
 | Layer         | Technology         |
 |---------------|--------------------|
 | Backend       | Python, Flask       |
-| NLP Libraries | TextBlob, Language-tool-python  |
+| NLP Libraries | TextBlob, Requests  |
 | Frontend      | HTML, Bootstrap     |
 | File Handling | Flask File Uploads  |
 
