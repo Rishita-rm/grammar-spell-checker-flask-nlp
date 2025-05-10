@@ -1,50 +1,133 @@
-# 📝 Grammar & Spell Checker App
+# 📝 Grammar & Spell Checker (Flask + NLP)
 
-A web-based grammar and spell checker built using **Python**, **Flask**, and **NLP libraries** like `TextBlob` and `GingerIt`.
+A smart, web-based grammar and spelling correction tool built with **Python**, **Flask**, and NLP libraries like **TextBlob** and **GingerIt**. Designed to clean up user-entered or uploaded text with accurate grammar fixes and spelling suggestions.
+
+---
 
 ## 🚀 Live Demo
-[👉 Click here to try the app live](https://replit.com/@yourusername/spell-checker-app)
 
-## 🔍 Features
-- ✅ Context-aware spell checking using **TextBlob**
-- ✅ Grammar mistake detection with **GingerIt**
-- ✅ Manual text input **and** file uploads
-- ✅ Clean Bootstrap interface
+🔗 [Try it now on Replit](https://replit.com/@yourusername/spell-checker-app)
 
-## 🛠 Technologies Used
-- Python 3
-- Flask
-- TextBlob
-- GingerIt
-- Bootstrap 5
+---
 
-## 📦 Installation
+## ✨ Features
+
+- ✅ Context-aware **spelling correction** using TextBlob
+- ✅ Rule-based **grammar suggestions** via GingerIt
+- ✅ **Text box** input or **file upload** for flexibility
+- ✅ Total issue count and correction list
+- ✅ Clean, mobile-friendly UI with Bootstrap 5
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Technology         |
+|---------------|--------------------|
+| Backend       | Python, Flask       |
+| NLP Libraries | TextBlob, GingerIt  |
+| Frontend      | HTML, Bootstrap     |
+| File Handling | Flask File Uploads  |
+
+---
+
+## 📸 Screenshots
+
+> You can add these later once deployed.
+
+| Text Input | Corrections |
+|------------|-------------|
+| ![input](screenshots/input.png) | ![output](screenshots/output.png) |
+
+---
+
+## 🔧 How to Run Locally
+
+### Step 1: Clone this repository
+
 ```bash
-git clone https://github.com/yourusername/spell-checker-app.git
-cd spell-checker-app
+git clone https://github.com/yourusername/grammar-spell-checker-flask-nlp.git
+cd grammar-spell-checker-flask-nlp
+```
+
+### Step 2: Install dependencies
+
+```bash
 pip install -r requirements.txt
 python -m textblob.download_corpora
+```
+
+### Step 3: Run the app
+
+```bash
 python app.py
 ```
 
-## 📁 File Structure
+Visit `http://127.0.0.1:5000` in your browser.
+
+---
+
+## 📂 Project Structure
+
 ```
 spell-checker-app/
-├── app.py
-├── Model.py
+├── app.py                  # Flask app logic
+├── Model.py                # Spell and grammar processing
 ├── requirements.txt
 ├── README.md
 ├── templates/
-│   └── index.html
+│   └── index.html          # Bootstrap UI
+└── static/                 # Optional: add custom CSS or JS
 ```
 
-## ✅ Future Improvements
-- Highlight text inline
-- Allow download of corrected text
-- Add language support
+---
 
-## 🙋‍♂️ About Me
-I’m a passionate Python developer focused on smart NLP tools.
+## 📄 Sample Input
+
+```
+I like mashine learning and bananana.
+```
+
+### Output
+
+- **Spelling**: `I like machine learning and banana.`
+- **Grammar Corrections**:
+  - `'mashine' → 'machine'`
+  - `'bananana' → 'banana'`
+
+---
+
+## 🧠 What I Learned
+
+- Working with Flask routing and templating
+- Handling file uploads in Python
+- Using NLP tools for spell and grammar analysis
+- Parsing grammar suggestions from APIs
+- Writing modular code for UI/backend separation
+
+---
+
+## 🚀 Future Improvements
+
+- 🔍 Highlight corrections inline in the text
+- 🌐 Multilingual support with translation tools
+- 💾 Download corrected files
+- 🔁 AJAX-based frontend (no reloads)
+- 🧪 Add automated tests with pytest
+- 🐳 Docker container for deployment
+
+---
+
+## 🙋 About Me
+
+Hi! I'm a Python enthusiast passionate about building smart tools using NLP, AI, and web tech.
+
+📫 [LinkedIn](https://linkedin.com/in/yourprofile)  
+💼 [Portfolio](https://yourportfolio.com)  
+🐍 [More Python Projects](https://github.com/yourusername)
+
+---
 
 ## 📜 License
-MIT
+
+MIT License – use it, improve it, share it!
