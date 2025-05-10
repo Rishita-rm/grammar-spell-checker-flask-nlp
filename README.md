@@ -122,9 +122,8 @@ I like mashine learning and bananana.
 
 Hi! I'm a Python enthusiast passionate about building smart tools using NLP, AI, and web tech.
 
-📫 [LinkedIn](https://linkedin.com/in/yourprofile)  
-💼 [Portfolio](https://yourportfolio.com)  
-🐍 [More Python Projects](https://github.com/yourusername)
+📫 [LinkedIn](https://www.linkedin.com/in/rishita-makkar-256851291/)    
+🐍 [More Python Projects](https://github.com/Rishita-rm)
 
 ---
 
