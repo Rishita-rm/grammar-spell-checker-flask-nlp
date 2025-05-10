@@ -2,7 +2,7 @@
 
 # 📝 Grammar & Spell Checker (Flask + NLP)
 
-A smart, web-based grammar and spelling correction tool built with **Python**, **Flask**, and NLP libraries like **TextBlob** and **GingerIt**. Designed to clean up user-entered or uploaded text with accurate grammar fixes and spelling suggestions.
+A smart, web-based grammar and spelling correction tool built with **Python**, **Flask**, and NLP libraries like **TextBlob** and **Language-tool-python**. Designed to clean up user-entered or uploaded text with accurate grammar fixes and spelling suggestions.
 
 ---
 
@@ -27,7 +27,7 @@ A smart, web-based grammar and spelling correction tool built with **Python**, *
 | Layer         | Technology         |
 |---------------|--------------------|
 | Backend       | Python, Flask       |
-| NLP Libraries | TextBlob, GingerIt  |
+| NLP Libraries | TextBlob, Language-tool-python  |
 | Frontend      | HTML, Bootstrap     |
 | File Handling | Flask File Uploads  |
 
@@ -48,7 +48,7 @@ A smart, web-based grammar and spelling correction tool built with **Python**, *
 ### Step 1: Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/grammar-spell-checker-flask-nlp.git
+git clone https://github.com/Rishita-rm/grammar-spell-checker-flask-nlp
 cd grammar-spell-checker-flask-nlp
 ```
 
